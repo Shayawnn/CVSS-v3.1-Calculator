@@ -158,18 +158,18 @@ CVSS.prototype.severityRatings = [{
 }, {
     name: "Low",
     bottom: 0.1,
-    top: 0.3
+    top: 0.8
 }, {
     name: "Medium",
-    bottom: 0.3,
-    top: 0.9
+    bottom: 0.9,
+    top: 2.1
 }, {
     name: "High",
-    bottom: 0.9,
-    top: 2.2
+    bottom: 2.2,
+    top: 2.3
 }, {
     name: "Critical",
-    bottom: 2.2,
+    bottom: 2.3,
     top: 3.9
 }];
 

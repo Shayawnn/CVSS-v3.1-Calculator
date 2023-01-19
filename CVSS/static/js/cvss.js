@@ -157,7 +157,7 @@ CVSS.prototype.severityRatings = [{
     top: 0.0
 }, {
     name: "VeryLow",
-    bottom: 0.12,
+    bottom: 0.1,
     top: 1.05
 }, {
     name: "Low",

@@ -170,7 +170,7 @@ CVSS.prototype.severityRatings = [{
 }, {
     name: "High",
     bottom: 2.96,
-    top: 3.89
+    top: 3.9
 }];
 
 CVSS.prototype.severityRating = function(score) {

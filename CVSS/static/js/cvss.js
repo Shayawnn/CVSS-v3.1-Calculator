@@ -156,21 +156,21 @@ CVSS.prototype.severityRatings = [{
     bottom: 0.0,
     top: 0.0
 }, {
+    name: "VeryLow",
+    bottom: 0.12,
+    top: 1.05
+}, {
     name: "Low",
-    bottom: 0.1,
-    top: 0.8
+    bottom: 1.06,
+    top: 1.99
 }, {
     name: "Medium",
-    bottom: 0.9,
-    top: 2.1
+    bottom: 2.00,
+    top: 2.95
 }, {
     name: "High",
-    bottom: 2.2,
-    top: 2.3
-}, {
-    name: "Critical",
-    bottom: 2.3,
-    top: 3.9
+    bottom: 2.96,
+    top: 3.89
 }];
 
 CVSS.prototype.severityRating = function(score) {
